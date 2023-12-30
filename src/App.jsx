@@ -1,13 +1,13 @@
 import './App.css'
-import CurrencyConverter from './components/currencychanger'
+import PasswordGenerator from './components/passwordCreater'
 
 function App() {
   return (
 
 
-    <div className="flex flex-wrap" style={{textAlign:"center",justifyContent:"center"}}>
+    <div className="flex flex-wrap" style={{background: 'linear-gradient(to right,#8e44ad, #3498db )',textAlign:"center",justifyContent:"center"}}>
 
-<CurrencyConverter/>
+<PasswordGenerator/>
     </div>
 
   )
